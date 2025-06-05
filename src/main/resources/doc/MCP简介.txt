@@ -1,0 +1,11 @@
+MCP：让工具对接不再痛苦
+ MCP（Model Context Protocol）是由 Anthropic 推出的通信协议，目标是解决 多模型、多工具对接时标准缺失的问题。
+
+✅ 核心理念：
+通过标准化协议让不同大模型（如 Claude、GPT、LLaMA）与不同工具统一对接，极大降低集成成本。
+
+🔍 架构组成：
+MCP Host：如 IDE、Claude Desktop，用户操作入口。
+MCP Client：维护与 MCP Server 的通信。
+MCP Server：对外暴露功能的轻量服务，连接模型与数据源。
+数据源：可为本地文件、数据库，也可为在线服务。
