@@ -1,0 +1,3 @@
+[submodule "aimed-ui"]
+	path = aimed-ui
+	url = git@github.com:digitzh/aimed-ui.git
